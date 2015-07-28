@@ -3,6 +3,10 @@ body {
     font-size: 11pt;
     background-color: #f0f0f0;
     color: #333;
+    background: url('http://webimg.ru/images/156_1.png') no-repeat 100px 400px;
+}
+table{
+    width: 100%;
 }
 td {
     background: olive;
