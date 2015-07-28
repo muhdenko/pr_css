@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <title>Флексагон</title>
     <link href="cs1.css" rel="stylesheet">
+    <link media="print, handheld" rel="stylesheet" href="cs1.css">
+    <link media="screen" rel="stylesheet" href="cs1.css">
     <style>
+        @import "cs1.css" screen;
+        @import "cs1.css" print, handheld;
+        @media screen{
         h1 {
-            font-size: 120%;
-            font-family: Verdana, Arial, Helvetica, sans-serif;
-            color: #333366;
+            background: #faf0e6;
+            border: 2px dashed maroon;
+            color: #a0522d;
+            padding: 7px;
+            }
         }
+        @media print {
+            h1, p{
+                color: black;
+        }}
+
     </style>
 </head>
 <body>
