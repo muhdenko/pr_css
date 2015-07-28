@@ -4,4 +4,8 @@ body {
     background-color: #f0f0f0;
     color: #333;
 }
-
+td {
+    background: olive;
+    color: white;
+    border: 1px solid black;
+}
