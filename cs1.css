@@ -4,9 +4,7 @@ body {
     background-color: #f0f0f0;
     color: #333;
 }
-input:focus {
-    color: red;
-}
+
 a:link {
     color: navy;
 }
@@ -19,15 +17,7 @@ a:hover {
 a:active {
     color: peachpuff;
 }
-table {
-    border-spacing: 0;
-}
-td {
-    padding: 4px;
-}
-tr:hover {
-    background: burlywood;
-}
+
 b:first-child {
     color: palevioletred;
 }
@@ -45,4 +35,24 @@ q:lang(en) {
 }
 q:lang(fr) {
     quotes: "\00AB" "\00BB";
+}
+P.new:after {
+    content: " NEW";
+    color:brown;
+}
+
+p:first-letter {
+    font-family: Arial, serif;
+    font-size: 200%;
+    color: red;
+}
+p.new:before {
+     content: "\20aa ";
+     color: dodgerblue;
+     font-weight: bold;
+     padding-right: 5px;
+ }
+div:first-line {
+    color: mediumseagreen;
+    font-style: italic;
 }
