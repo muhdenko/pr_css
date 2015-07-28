@@ -3,13 +3,42 @@ body {
     font-size: 11pt;
     background-color: #f0f0f0;
     color: #333;
-    background: url('http://webimg.ru/images/156_1.png') no-repeat 100px 400px;
+    background: url('http://webimg.ru/images/156_1.png') no-repeat 900px 400px;
 }
-table{
-    width: 100%;
+h1 { color: #a6780a;
+    font-weight: 600;
+    font-size: 30px;
+    background-color: RGB(249, 201, 16);}
+p {
+    color: green;
+    border-bottom: 2px solid black;
+    line-height: 1.2;
+    font-size: 1.5em;
+    margin-left: 30mm;
+    text-align: justify;
 }
-td {
-    background: olive;
-    color: white;
-    border: 1px solid black;
+.cite {
+    color: navy;
+    margin-left: 20px;
+    border-left: 1px solid navy;
+    padding-left: 15px;
+}
+.gost {
+    color: blueviolet;
+    font-weight: bold;
+}
+.term {
+    border-bottom: 3px dashed red;
+}
+table.jewel {
+    width: 25%;
+    border: 1px solid #666;
+}
+th {
+    background: #009383;
+    color: #fff;
+    text-align: left;
+}
+tr.odd {
+    background: #ebd3d7;
 }
