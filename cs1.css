@@ -116,3 +116,39 @@ li > a {
     border-bottom: none;
     padding: 5px;
 }
+q {
+    font-style: italic;
+    quotes: "\00AB" "\00BB";
+}
+q[title] {
+    color:firebrick;
+}
+
+a[href$=".ru"]{
+    padding-left: 12px;
+    color:silver;
+}
+a[href$=".com"] {
+    color:yellowgreen;
+    padding-left: 12px;
+}
+a[href^="http://"] {
+     font-weight: bold;
+     color: darkcyan;
+ }
+a[href*="htmlbook"] {
+    background: yellow;
+}
+[class~="jewel"] th {
+    color: ivory;
+}
+div[class|="block"] {
+    background: #306589;
+    color: #acdb4c;
+    padding: 5px;
+    width:5%;
+    height: 5%;
+}
+div[class|="block"] a {
+    color: brown;
+}
