@@ -3,146 +3,46 @@ body {
     font-size: 11pt;
     background-color: #f0f0f0;
     color: #333;
-    background: url('http://webimg.ru/images/156_1.png') no-repeat 900px 400px;
 }
-h1 { color: #a6780a;
-    font-weight: 600;
-    font-size: 30px;
-    background-color: RGB(249, 201, 16);}
-p {
-    color: green;
-    border-bottom: 2px solid black;
-    line-height: 1.2;
-    font-size: 1.5em;
-    margin-left: 30mm;
-    text-align: justify;
+input:focus {
+    color: red;
 }
-.cite {
+a:link {
     color: navy;
-    margin-left: 20px;
-    border-left: 1px solid navy;
-    padding-left: 15px;
 }
-.gost {
-    color: blueviolet;
-    font-weight: bold;
-}
-.term {
-    border-bottom: 3px dashed red;
-}
-table.jewel {
-    width: 25%;
-    border: 1px solid #666;
-}
-th {
-    background: #009383;
-    color: #fff;
-    text-align: left;
-}
-tr.odd {
-    background: #ebd3d7;
-}
-#help {
-    position: absolute;
-    left: 350px;
-    bottom: 130px;
-    width: 225px;
-    padding: 5px;
-    background: #f0f0f0;
-}
-p#pp {
-    color: red;
-    border: 1px solid #666;
-    background: #eee;
-    padding: 5px;
-    width: 25%;
-}
-p b {
-    font-family: Times, serif;
-    color: mediumspringgreen;
-}
-b + i {
-    color: red;
-}
-
-h2.sic {
-    font-size: 140%;
-    color: maroon;
-    font-weight: normal;
-    margin-left: 30px;
-    margin-bottom: 5px;
-}
-h2.sic + P {
-    background: #ddd;
-    margin-left: 30px;
-    margin-top: 0.5em;
-    padding: 7px;
-}
-h1 + h2 {
-    margin-top: -10px;
-}
-h2 + p {
-    margin-top: -1em;
-}
-p > i {
+a:visited {
     color: orangered;
 }
-ul#menu {
-    margin: 0; padding: 0;
+a:hover {
+    color: cyan;
 }
-ul#menu > li {
-    list-style: none;
-    width: 100px;
-    background: #b3d9d2;
-    color: #333;
-    padding: 5px;
-    font-family: Arial, sans-serif;
-    font-size: 90%;
-    font-weight: bold;
-    float: left;
+a:active {
+    color: peachpuff;
 }
-li > ul {
-    list-style: none;
-    margin: 0; padding: 0;
-    border-bottom: 1px solid #666;
-    padding-top: 5px;
+table {
+    border-spacing: 0;
 }
-li > a {
-    display: block;
-    font-weight: normal;
-    font-size: 90%;
-    background: #fff;
-    border: 1px solid #666;
-    border-bottom: none;
-    padding: 5px;
+td {
+    padding: 4px;
 }
-q {
-    font-style: italic;
+tr:hover {
+    background: burlywood;
+}
+b:first-child {
+    color: palevioletred;
+}
+P {
+    text-indent: 1em;
+}
+q{
+    text-shadow: 2px 2px  #ccc;
+}
+q:lang(de) {
+    quotes: "\201E" "\201C";
+}
+q:lang(en) {
+    quotes: "\201C" "\201D";
+}
+q:lang(fr) {
     quotes: "\00AB" "\00BB";
-}
-q[title] {
-    color:firebrick;
-}
-
-a[href$=".ru"]{
-    padding-left: 12px;
-    color:silver;
-}
-a[href$=".com"] {
-    color:yellowgreen;
-    padding-left: 12px;
-}
-a[href^="http://"] {
-     font-weight: bold;
-     color: darkcyan;
- }
-a[href*="htmlbook"] {
-    background: yellow;
-}
-[class~="jewel"] th {
-    color: ivory;
-}
-* {
-    font-family: Arial, Verdana, sans-serif;
-    font-size: 96%;
 }
