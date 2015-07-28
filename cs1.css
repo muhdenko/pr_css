@@ -64,18 +64,7 @@ p b {
 b + i {
     color: red;
 }
-a {
-    color: darkorange;
-}
-.menu {
-    padding: 7px;
-    border: 1px solid #333;
-    background: #fc0;
-    width: 200px;
-}
-.menu a {
-    color: darkcyan;
-}
+
 h2.sic {
     font-size: 140%;
     color: maroon;
@@ -94,4 +83,36 @@ h1 + h2 {
 }
 h2 + p {
     margin-top: -1em;
+}
+p > i {
+    color: orangered;
+}
+ul#menu {
+    margin: 0; padding: 0;
+}
+ul#menu > li {
+    list-style: none;
+    width: 100px;
+    background: #b3d9d2;
+    color: #333;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 90%;
+    font-weight: bold;
+    float: left;
+}
+li > ul {
+    list-style: none;
+    margin: 0; padding: 0;
+    border-bottom: 1px solid #666;
+    padding-top: 5px;
+}
+li > a {
+    display: block;
+    font-weight: normal;
+    font-size: 90%;
+    background: #fff;
+    border: 1px solid #666;
+    border-bottom: none;
+    padding: 5px;
 }
