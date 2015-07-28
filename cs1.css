@@ -57,3 +57,19 @@ p#pp {
     padding: 5px;
     width: 25%;
 }
+p b {
+    font-family: Times, serif;
+    color: mediumspringgreen;
+}
+a {
+    color: darkorange;
+}
+.menu {
+    padding: 7px;
+    border: 1px solid #333;
+    background: #fc0;
+    width: 200px;
+}
+.menu a {
+    color: darkcyan;
+}
