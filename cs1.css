@@ -42,3 +42,18 @@ th {
 tr.odd {
     background: #ebd3d7;
 }
+#help {
+    position: absolute;
+    left: 350px;
+    bottom: 130px;
+    width: 225px;
+    padding: 5px;
+    background: #f0f0f0;
+}
+p#pp {
+    color: red;
+    border: 1px solid #666;
+    background: #eee;
+    padding: 5px;
+    width: 25%;
+}
