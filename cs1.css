@@ -64,3 +64,5 @@ table {
 p.red {
     color: maroon;
 }
+#menu ul li { color: green;}
+.two { color:  red !important; }
