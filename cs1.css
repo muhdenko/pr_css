@@ -56,3 +56,11 @@ div:first-line {
     color: mediumseagreen;
     font-style: italic;
 }
+table {
+    color: red;
+    background: #333;
+    border: 2px solid red;
+}
+p.red {
+    color: maroon;
+}
