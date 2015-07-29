@@ -5,19 +5,6 @@ body {
     color: #333;
 }
 
-a:link {
-    color: navy;
-}
-a:visited {
-    color: orangered;
-}
-a:hover {
-    color: cyan;
-}
-a:active {
-    color: peachpuff;
-}
-
 b:first-child {
     color: palevioletred;
 }
@@ -66,3 +53,17 @@ p.red {
 }
 #menu ul li { color: green;}
 .two { color:  red !important; }
+#a, .a {
+    border: none;
+    background: #f0f0f0;
+    color: green;
+    padding: 5px;
+}
+.b {
+    border: 1px solid red;
+    color: red;
+    padding: 0;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}

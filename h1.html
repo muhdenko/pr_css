@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <title>CSS</title>
     <link href="cs1.css" rel="stylesheet">
+    <script>
+        function validForm(f) {
+            user = document.getElementById("userName");
+            if(user.value == "")
+                document.getElementById("msg").innerHTML = 'Пожалуйста, введите имя.';
+            else f.submit();
+        }
+    </script>
 </head>
 <body>
-    <a href="http://htmlbook.ru">Ссылка 1</a>
-    <a href="http://htmlbook.ru/#css">Ссылка 2</a>
-    <a href="http://htmlbook.ru/#html">Ссылка 3</a>
     <p><b>Lorem ipsum</b> dolor sit amet, <b>consectetuer</b>
         adipiscing <b>elit</b>, sed diem nonummy nibh euismod tincidunt
         ut lacreet dolore magna aliguam erat volutpat.</p>
@@ -40,5 +45,14 @@
             <li>Третий</li>
         </ul>
     </div>
+    <form action="f1" onsubmit="validForm(this); return false">
+        <p>Введите свое имя:</p>
+        <div id="msg"></div>
+        <p><input type="text" id="userName" name="user"></p>
+        <p><input type="submit"></p>
+    </form>
+    <p id="a" class="b">Стиль идентификатора</p>
+    <p class="a b">Стиль классов a и b</p>
+    <p class="b">Стиль класса b</p>
 </body>
 </html>
